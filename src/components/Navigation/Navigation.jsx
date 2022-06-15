@@ -1,6 +1,7 @@
 import { LINKS } from '../../constants/index'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom';
+import './Navigation.css'
 
 const Navigation = () => {
 
@@ -8,13 +9,13 @@ const Navigation = () => {
 
     return (
         <>
-            <Navbar className="Navbar" >
-                <Container className="Navbar2">
-                    <Nav>
-                        <NavLink to={LINKS[0]?.href} >Home</NavLink>
-                        <NavLink to={LINKS[1]?.href} >About Me</NavLink>
-                        <NavLink to={LINKS[2]?.href} >Projects</NavLink>
-                        <NavLink to={LINKS[3]?.href} >Contact</NavLink>
+            <Navbar className="container" >
+                <Container className='wrapper'>
+                    <Nav className='menu'>
+                        <NavLink className="menuItem" to={LINKS[0]?.href} >Home</NavLink>
+                        <NavLink className="menuItem" to={LINKS[1]?.href} >About Me</NavLink>
+                        <NavLink className="menuItem" to={LINKS[2]?.href} >Projects</NavLink>
+                        <NavLink className="menuItem" to={LINKS[3]?.href} >Contact</NavLink>
                     </Nav>
                 </Container>
             </Navbar>
