@@ -9,7 +9,7 @@ import githubIcon from './../assets/icons/github-brands.svg'
 import linkedinIcon from './../assets/icons/linkedin-brands.svg'
 import MongoDBIcon from './../assets/icons/mongodb-ar21.svg'
 
-const LINKS = [
+export const LINKS = [
     {
         name: 'Home',
         href: '/',
@@ -28,7 +28,7 @@ const LINKS = [
     },
 ];
 
-const ABOUT_ME = {
+export const ABOUT_ME = {
     description:
         "I'm a Full Stack developer with a background in administration and accounting. Passionate about technology and videogames that enjoy combining my skills in both worlds to help companies get the best digital product.Currently focused on finding new challenges, keep learning and updating my knowledge.",
     skills: [
@@ -67,7 +67,7 @@ const ABOUT_ME = {
     ],
 };
 
-const SOCIAL_LINKS = [
+export const SOCIAL_LINKS = [
 
     {
         name: 'Github',
@@ -81,7 +81,7 @@ const SOCIAL_LINKS = [
     },
 ];
 
-const PROJECTS = [
+export const PROJECTS = [
     {
         id: 1,
         title: "All on Board",
@@ -112,4 +112,4 @@ const PROJECTS = [
     },
 ];
 
-module.exports = { LINKS, ABOUT_ME, SOCIAL_LINKS, PROJECTS };
+// module.exports = { LINKS, ABOUT_ME, SOCIAL_LINKS, PROJECTS };
