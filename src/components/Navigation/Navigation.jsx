@@ -5,7 +5,6 @@ import './Navigation.css'
 
 const Navigation = () => {
 
-    console.log(LINKS)
 
     return (
         <>

@@ -1,0 +1,13 @@
+img {
+    width: 30px
+}
+.socialList {
+    list-style: none;
+    display: flex;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
